@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h2>Shopify Clone</h2>
+  </header>
+
+  <!-- Product Section -->
+  <section class="product">
+
+    <div class="product-images">
+      <img id="mainImage" src="assets/img1.jpg" alt="Product">
+
+      <div class="thumbnails">
+        <img src="assets/img1.jpg" onclick="changeImage(this)">
+        <img src="assets/img2.jpg" onclick="changeImage(this)">
+        <img src="assets/img3.jpg" onclick="changeImage(this)">
+      </div>
+    </div>
+
+    <div class="product-info">
+      <h1>Product Name</h1>
+      <p>$99.99</p>
+
+      <p>Simple product description goes here.</p>
+
+      <select>
+        <option>Small</option>
+        <option>Medium</option>
+        <option>Large</option>
+      </select>
+
+      <button>Add to Cart</button>
+    </div>
+
+  </section>
+
+  <!-- Tabs -->
+  <section class="tabs">
+    <button onclick="showTab('desc')">Description</button>
+    <button onclick="showTab('ship')">Shipping</button>
+    <button onclick="showTab('rev')">Reviews</button>
+
+    <div id="tabContent"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
