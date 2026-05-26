@@ -27,6 +27,7 @@ https://19iars.github.io/shopify-product-page-clone/
 ---
 
 ## 📁 Project Structure
+```text
 shopify-product-page-clone/
 │
 ├── index.html
@@ -36,6 +37,7 @@ shopify-product-page-clone/
     ├── img1.jpg
     ├── img2.jpg
     ├── img3.jpg
+```
 
 ---
 
