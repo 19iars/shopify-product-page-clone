@@ -6,7 +6,7 @@ It replicates a basic Shopify-style product layout with image switching and inte
 ---
 
 ## 🚀 Live Demo
-[Add your link here]
+https://19iars.github.io/shopify-product-page-clone/
 
 ---
 
