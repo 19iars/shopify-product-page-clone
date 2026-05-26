@@ -27,10 +27,15 @@ It replicates a basic Shopify-style product layout with image switching and inte
 ---
 
 ## 📁 Project Structure
-- index.html  
-- style.css  
-- script.js  
-- assets/ (images)  
+shopify-product-page-clone/
+│
+├── index.html
+├── style.css
+├── script.js
+└── assets/
+    ├── img1.jpg
+    ├── img2.jpg
+    ├── img3.jpg
 
 ---
 
