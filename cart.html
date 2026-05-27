@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart | Shopify Product Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="brand">
+        <span class="brand__label">SHOPIFY CLONE</span>
+        <strong class="brand__name">Streetwear Co.</strong>
+      </div>
+    </header>
+
+    <main class="page-content">
+      <div class="page-heading">
+        <div>
+          <p class="eyebrow">Shopping Cart</p>
+          <h1>Your cart is ready</h1>
+        </div>
+        <a href="product.html" class="button button--secondary">Continue shopping</a>
+      </div>
+
+      <section class="page-card cart-card">
+        <div class="cart-summary" id="cartSummary"></div>
+
+        <div class="checkout-panel">
+          <div class="summary-block">
+            <span>Subtotal</span>
+            <strong id="subtotalAmount">$0.00</strong>
+          </div>
+          <div class="summary-block">
+            <span>Shipping</span>
+            <strong>Free</strong>
+          </div>
+          <div class="summary-block summary-total">
+            <span>Total</span>
+            <strong id="totalAmount">$0.00</strong>
+          </div>
+          <a id="checkoutLink" class="button button--primary" href="#">Proceed to checkout</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Responsive cart page for the Shopify-style product clone.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
