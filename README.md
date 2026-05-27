@@ -1,28 +1,30 @@
 # Shopify Product Page Clone
 
-A simple responsive eCommerce product page built using HTML, CSS, and JavaScript.  
-It replicates a basic Shopify-style product layout with image switching and interactive UI elements.
+A professional, responsive Shopify-style eCommerce experience built with semantic HTML, modern CSS design system, and modular JavaScript. Features a landing page, product showcase, details page, cart, and checkout flow.
 
 ---
 
 ## 🚀 Live Demo
-https://19iars.github.io/shopify-product-page-clone/
+[View Live Demo](https://19iars.github.io/shopify-product-page-clone/)
 
 ---
 
 ## ✨ Features
-- Responsive product page layout  
-- Image gallery with thumbnail switching  
-- Product details section (title, price, description)  
-- Basic tabs (Description, Shipping, Reviews)  
-- Mobile-friendly design  
+- **Landing Page** – Hero section with CTAs and feature highlights
+- **Product Page** – Image gallery with variant selection (color/size)
+- **Details Page** – Product information, fabric, fit, and care details
+- **Shopping Cart** – Item summary with totals and checkout link
+- **Checkout** – Order review and completion flow
+- **Responsive Design** – Mobile, tablet, and desktop optimized
+- **Modern UI** – CSS design system with variables and consistent spacing
+- **Accessible** – Semantic HTML, ARIA labels, and keyboard navigation
 
 ---
 
 ## 🛠️ Tech Stack
-- HTML  
-- CSS  
-- JavaScript  
+- HTML5
+- CSS3 (Grid, Flexbox, Variables)
+- Vanilla JavaScript (ES6+)
 
 ---
 
@@ -30,20 +32,50 @@ https://19iars.github.io/shopify-product-page-clone/
 ```text
 shopify-product-page-clone/
 │
-├── index.html
-├── style.css
-├── script.js
+├── index.html           (Landing page)
+├── product.html         (Product page with gallery)
+├── details.html         (Product details)
+├── cart.html            (Shopping cart)
+├── checkout.html        (Checkout page)
+├── style.css            (Responsive styles)
+├── script.js            (Page logic & navigation)
+├── README.md
 └── assets/
-    ├── img1.jpg
-    ├── img2.jpg
-    ├── img3.jpg
+    ├── clothing-1.svg
+    ├── clothing-2.svg
+    ├── clothing-3.svg
+    └── clothing-hero.svg
 ```
 
 ---
 
-## 🎯 Purpose
-Practice project to demonstrate frontend skills:
-- Layout building with HTML/CSS  
-- Responsive design  
-- JavaScript DOM manipulation  
-- Basic eCommerce UI structure  
+## 🎯 Getting Started
+1. Clone or download the repository
+2. Open `index.html` in a web browser
+3. Navigate through the pages using the buttons and links
+
+---
+
+## 📝 Pages Overview
+
+| Page | URL | Purpose |
+|------|-----|---------|
+| Landing | `index.html` | Homepage with hero section and features |
+| Product | `product.html` | Product showcase with gallery and variants |
+| Details | `details.html` | Detailed product information |
+| Cart | `cart.html` | Shopping cart with item summary |
+| Checkout | `checkout.html` | Order review and completion |
+
+---
+
+## 🎨 Design Highlights
+- Clean, minimalist aesthetic inspired by modern eCommerce platforms
+- Consistent spacing and typography using CSS variables
+- Smooth transitions and hover effects for better UX
+- Mobile-first responsive layout
+- SVG clothing illustrations for a polished look
+
+---
+
+## 📌 Usage
+Open `index.html` to start at the landing page, then navigate through the site using the call-to-action buttons and header links.
