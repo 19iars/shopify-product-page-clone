@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+    <linearGradient id="heroFabric" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#4b5563"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#heroBg)"/>
+  <rect x="110" y="90" width="680" height="420" rx="48" fill="#ffffff" stroke="#cbd5e1" stroke-width="8"/>
+  <path d="M320 220 Q280 140 260 140 H240 Q210 140 190 190 L180 430 Q185 470 225 470 H335 Q375 470 385 430 L375 290 Q375 270 395 250 C415 230 435 230 455 250 L465 290 L455 430 Q445 470 485 470 H610 Q650 470 655 430 L645 200 Q625 140 600 140 H580 Q560 140 520 220" fill="url(#heroFabric)" stroke="#111827" stroke-width="10"/>
+  <path d="M320 260 H550" stroke="#e5e7eb" stroke-width="20" stroke-linecap="round"/>
+  <path d="M320 320 H550" stroke="#e5e7eb" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="450" cy="505" r="32" fill="#111827" opacity="0.12"/>
+</svg>
