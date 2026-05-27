@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Oversized Hoodie | Shopify Product Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="brand">
+        <span class="brand__label">SHOPIFY CLONE</span>
+        <strong class="brand__name">Streetwear Co.</strong>
+      </div>
+    </header>
+
+    <main class="product-page">
+      <section class="product-gallery">
+        <div class="gallery-badge">NEW ARRIVAL</div>
+
+        <figure class="gallery-main">
+          <img
+            id="mainImage"
+            src="assets/clothing-1.svg"
+            alt="Premium Oversized Hoodie in black"
+            class="gallery-image"
+          >
+        </figure>
+
+        <div class="gallery-thumbs" role="list">
+          <button class="gallery-thumb active" type="button" data-image="assets/clothing-1.svg" aria-label="View black hoodie">
+            <img src="assets/clothing-1.svg" alt="Black hoodie thumbnail">
+          </button>
+          <button class="gallery-thumb" type="button" data-image="assets/clothing-2.svg" aria-label="View gray hoodie">
+            <img src="assets/clothing-2.svg" alt="Gray hoodie thumbnail">
+          </button>
+          <button class="gallery-thumb" type="button" data-image="assets/clothing-3.svg" aria-label="View beige hoodie">
+            <img src="assets/clothing-3.svg" alt="Beige hoodie thumbnail">
+          </button>
+        </div>
+      </section>
+
+      <section class="product-details">
+        <div class="product-status">
+          <span class="product-vendor">Streetwear Co.</span>
+          <div class="product-rating" aria-label="4.8 out of 5 stars">★★★★☆ <span>4.8</span></div>
+        </div>
+
+        <h1 class="product-title">Premium Oversized Hoodie</h1>
+        <p class="product-copy">
+          Ultra-soft heavyweight cotton hoodie with a relaxed fit, modern cut, and minimalist detailing.
+        </p>
+
+        <div class="product-pricing">
+          <span class="price-current">$89.99</span>
+          <span class="price-compare">$129.99</span>
+        </div>
+
+        <div class="product-options">
+          <div class="option-group">
+            <h2>Color</h2>
+            <div class="variant-group" role="group" aria-label="Color options">
+              <button class="variant-btn variant-btn--color active" type="button" data-option="Black" data-variant-image="assets/clothing-1.svg" aria-pressed="true">
+                <span class="variant-swatch variant-swatch--black"></span>
+                <span class="visually-hidden">Black</span>
+              </button>
+              <button class="variant-btn variant-btn--color" type="button" data-option="Gray" data-variant-image="assets/clothing-2.svg" aria-pressed="false">
+                <span class="variant-swatch variant-swatch--gray"></span>
+                <span class="visually-hidden">Gray</span>
+              </button>
+              <button class="variant-btn variant-btn--color" type="button" data-option="Beige" data-variant-image="assets/clothing-3.svg" aria-pressed="false">
+                <span class="variant-swatch variant-swatch--beige"></span>
+                <span class="visually-hidden">Beige</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="option-group">
+            <h2>Size</h2>
+            <div class="variant-group" role="group" aria-label="Size options">
+              <button class="variant-btn active" type="button" data-option="S" aria-pressed="true">S</button>
+              <button class="variant-btn" type="button" data-option="M" aria-pressed="false">M</button>
+              <button class="variant-btn" type="button" data-option="L" aria-pressed="false">L</button>
+              <button class="variant-btn" type="button" data-option="XL" aria-pressed="false">XL</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-purchase">
+          <div class="quantity-control" aria-label="Quantity selector">
+            <button class="qty-btn" type="button" id="minus" aria-label="Decrease quantity">−</button>
+            <span id="quantity" class="qty-value">1</span>
+            <button class="qty-btn" type="button" id="plus" aria-label="Increase quantity">+</button>
+          </div>
+
+          <div class="button-group">
+            <button class="button button--primary" id="addToCart">Add to Cart</button>
+            <button class="button button--secondary" id="buyNow">Buy It Now</button>
+          </div>
+        </div>
+
+        <div class="product-meta">
+          <div class="meta-block">
+            <strong>Shipping</strong>
+            <p>Free shipping on orders over $100.</p>
+          </div>
+          <div class="meta-block">
+            <strong>Returns</strong>
+            <p>30-day easy returns and exchanges.</p>
+          </div>
+        </div>
+
+        <div class="product-tabs" aria-label="Product details tabs">
+          <div class="tabs-nav" role="tablist">
+            <button class="tab-btn active" type="button" data-tab="description" role="tab" aria-selected="true">Description</button>
+            <button class="tab-btn" type="button" data-tab="shipping" role="tab" aria-selected="false">Shipping</button>
+            <button class="tab-btn" type="button" data-tab="returns" role="tab" aria-selected="false">Returns</button>
+          </div>
+
+          <div class="tabs-panel">
+            <div class="tab-panel active" id="description" role="tabpanel">
+              A premium hoodie with plush cotton, elevated stitching, and an oversized silhouette designed for everyday comfort.
+            </div>
+            <div class="tab-panel" id="shipping" role="tabpanel">
+              Orders ship within 1-2 business days. Standard delivery takes 3-5 days, and expedited shipping is available at checkout.
+            </div>
+            <div class="tab-panel" id="returns" role="tabpanel">
+              Returns are accepted within 30 days of delivery. Simply start a return through the store portal for an easy exchange or refund.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built as a responsive Shopify-style product page clone.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
