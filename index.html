@@ -1,56 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Product Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Streetwear Co. | Premium Hoodie Landing Page</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-  <!-- Header -->
-  <header>
-    <h2>Shopify Clone</h2>
-  </header>
-
-  <!-- Product Section -->
-  <section class="product">
-
-    <div class="product-images">
-      <img id="mainImage" src="assets/img1.jpg" alt="Product">
-
-      <div class="thumbnails">
-        <img src="assets/img1.jpg" onclick="changeImage(this)">
-        <img src="assets/img2.jpg" onclick="changeImage(this)">
-        <img src="assets/img3.jpg" onclick="changeImage(this)">
+  <div class="page-shell landing-page">
+    <header class="site-header landing-header">
+      <div class="brand">
+        <span class="brand__label">SHOPIFY CLONE</span>
+        <strong class="brand__name">Streetwear Co.</strong>
       </div>
-    </div>
+      <a href="product.html" class="button button--secondary">Shop now</a>
+    </header>
 
-    <div class="product-info">
-      <h1>Product Name</h1>
-      <p>$99.99</p>
+    <main class="landing-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">New arrival</p>
+        <h1>Premium oversized hoodie with an elevated streetwear look.</h1>
+        <p>
+          Designed for comfort, styled for everyday wear, and built to become the center of your wardrobe.
+          Discover the hoodie that blends premium fabric, minimalist details, and easy styling.
+        </p>
+        <div class="hero-actions">
+          <a href="product.html" class="button button--primary">Shop the hoodie</a>
+          <a href="details.html" class="button button--secondary">See details</a>
+        </div>
+      </div>
 
-      <p>Simple product description goes here.</p>
+      <div class="hero-visual">
+        <img src="assets/clothing-hero.svg" alt="Premium oversized hoodie hero image" />
+      </div>
+    </main>
 
-      <select>
-        <option>Small</option>
-        <option>Medium</option>
-        <option>Large</option>
-      </select>
+    <section class="landing-grid" id="features">
+      <article class="feature-card">
+        <h2>Premium materials</h2>
+        <p>Heavyweight cotton with a plush, soft feel that keeps every outfit elevated.</p>
+      </article>
+      <article class="feature-card">
+        <h2>Modern fit</h2>
+        <p>Relaxed silhouette, clean lines, and thoughtful details for a polished street look.</p>
+      </article>
+      <article class="feature-card">
+        <h2>Built for everyday</h2>
+        <p>Durable construction and easy-care design for a hoodie that feels like a wardrobe staple.</p>
+      </article>
+    </section>
 
-      <button>Add to Cart</button>
-    </div>
-
-  </section>
-
-  <!-- Tabs -->
-  <section class="tabs">
-    <button onclick="showTab('desc')">Description</button>
-    <button onclick="showTab('ship')">Shipping</button>
-    <button onclick="showTab('rev')">Reviews</button>
-
-    <div id="tabContent"></div>
-  </section>
-
-  <script src="script.js"></script>
+    <footer class="site-footer landing-footer">
+      <p>Launching a Shopify-style product experience with a modern landing page.</p>
+    </footer>
+  </div>
 </body>
 </html>
