@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout | Shopify Product Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="brand">
+        <span class="brand__label">SHOPIFY CLONE</span>
+        <strong class="brand__name">Streetwear Co.</strong>
+      </div>
+    </header>
+
+    <main class="page-content">
+      <div class="page-heading">
+        <div>
+          <p class="eyebrow">Checkout</p>
+          <h1>Complete your order</h1>
+        </div>
+        <a href="product.html" class="button button--secondary">Edit product</a>
+      </div>
+
+      <section class="page-card checkout-card">
+        <div class="checkout-summary" id="checkoutSummary"></div>
+
+        <div class="checkout-panel">
+          <div class="summary-block">
+            <span>Order subtotal</span>
+            <strong id="checkoutSubtotal">$0.00</strong>
+          </div>
+          <div class="summary-block">
+            <span>Shipping</span>
+            <strong>Free</strong>
+          </div>
+          <div class="summary-block summary-total">
+            <span>Total</span>
+            <strong id="checkoutTotal">$0.00</strong>
+          </div>
+          <button class="button button--primary" id="placeOrderBtn" type="button">Place order</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Responsive checkout page for the Shopify-style product clone.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
